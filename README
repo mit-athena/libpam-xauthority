@@ -1,0 +1,17 @@
+This is the README for pam_xauthority, a PAM SESSION module which sets
+$XAUTHORITY to a securely created file in /tmp in pam_open_session,
+and unlinks the file in pam_close_session.  This is useful if you are
+in an environment where home directories are on network filesystems
+and don't want to share your xauthority files.  
+
+One uses the module by adding the line
+
+session    optional   pam_xauthority.so 
+
+in /etc/pam.d/ssh.
+
+It supports two options: debug (for debugging output) and an option
+dir=/var/tmp changing the directory that it places xauthority files
+into.  So, the pam-xauthority session line might look like:
+
+session    optional   pam_xauthority.so debug dir=/var/tmp

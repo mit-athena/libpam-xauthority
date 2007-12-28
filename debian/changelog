@@ -1,0 +1,59 @@
+libpam-xauthority (0.5.3-0debathena1) unstable; urgency=low
+
+  * Section: debathena/libs.
+  * Silence a linker warning from linktest.
+
+ -- Anders Kaseorg <andersk@mit.edu>  Sat, 21 Jul 2007 22:54:31 -0400
+
+libpam-xauthority (0.5.2-0debathena1) unstable; urgency=low
+
+  * Minor cleanup.
+
+ -- Anders Kaseorg <andersk@mit.edu>  Tue, 17 Jul 2007 16:18:57 -0400
+
+libpam-xauthority (0.5.1-0debathena1) unstable; urgency=low
+
+  * Minor cleanup.
+
+ -- Anders Kaseorg <andersk@mit.edu>  Fri, 13 Jul 2007 01:55:00 -0400
+
+libpam-xauthority (0.5.0) unstable; urgency=low
+
+  [ Tim Abbott ]
+  * New "upstream" release, adding support for setting the Xauthority
+    directory in the PAM configuration.
+
+  [ Anders Kaseorg ]
+  * Clean up everything and add more robust error handling.
+
+ -- Anders Kaseorg <andersk@mit.edu>  Mon, 02 Jul 2007 17:55:09 -0400
+
+libpam-xauthority (0.4.1) unstable; urgency=low
+
+  * Repackage with CDBS.
+
+ -- Anders Kaseorg <andersk@mit.edu>  Sun, 17 Jun 2007 21:26:46 -0400
+
+libpam-xauthority (0.4) unstable; urgency=low
+
+  * slight cleaning of source code to remove buf2 variable
+
+ -- Tim Abbott <tabbott@mit.edu>  Sun,  8 Oct 2006 16:10:02 -0400
+
+libpam-xauthority (0.3) unstable; urgency=low
+
+  * Got rid of some useless debugging output
+
+ -- Tim Abbott <tabbott@mit.edu>  Sun,  8 Oct 2006 14:49:19 -0400
+
+libpam-xauthority (0.2) unstable; urgency=low
+
+  * fixed code to chown the xauthority file to the user.
+
+ -- Tim Abbott <tabbott@mit.edu>  Sun,  8 Oct 2006 14:43:18 -0400
+
+libpam-xauthority (0.1) unstable; urgency=low
+
+  * Initial Release
+
+ -- Tim Abbott <tabbott@mit.edu>  Sat,  7 Oct 2006 20:53:45 -0400

@@ -1,0 +1,14 @@
+Source: libpam-xauthority
+Section: debathena/libs
+Priority: optional
+Maintainer: Tim Abbott <tabbott@mit.edu>
+Standards-Version: 3.7.2
+Build-Depends: cdbs (>= 0.4.23-1.1), debhelper (>= 4.2.0), libpam0g-dev
+
+Package: libpam-xauthority
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: PAM module to set XAUTHORITY securely
+ Sets the XAUTHORITY environment variable to a securely created 
+ temporary file, for use when home directories are in a networked 
+ filesystem.
