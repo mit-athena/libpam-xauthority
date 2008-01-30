@@ -1,7 +1,7 @@
 Source: libpam-xauthority
 Section: debathena/libs
 Priority: optional
-Maintainer: Tim Abbott <tabbott@mit.edu>
+Maintainer: Debian-Athena Project <debathena@mit.edu>
 Standards-Version: 3.7.2
 Build-Depends: cdbs (>= 0.4.23-1.1), debhelper (>= 4.2.0), libpam0g-dev
 

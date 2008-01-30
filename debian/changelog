@@ -1,3 +1,9 @@
+libpam-xauthority (0.5.3-0debathena2) unstable; urgency=low
+
+  * Set maintainer to debathena@mit.edu.
+
+ -- Tim Abbott <tabbott@mit.edu>  Tue, 29 Jan 2008 22:23:55 -0500
+
 libpam-xauthority (0.5.3-0debathena1) unstable; urgency=low
 
   * Section: debathena/libs.
